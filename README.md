@@ -15,7 +15,7 @@ Understanding data structures and algorithms is crucial for any programmer looki
 ## Directory Structure
 The project follows a structured organization to make it easy for users to navigate and find the desired implementations. Here's a brief overview:
 
-/Java-Data-Structures-Algorithms
+/JavaDSA
 |-- src # Source code for data structures and algorithms
 
 | |-- datastructures # Java classes for various data structures
