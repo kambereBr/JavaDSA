@@ -15,6 +15,10 @@ public class StringReverser {
      * @return The reversed string.
      */
     public String reverseWithStack(String str) {
+        if (str == null)
+            // Throw an exception if str is null
+            throw new IllegalArgumentException();
+
         // Create a Stack to store characters
         Stack<Character> stack = new Stack<>();
 
@@ -38,6 +42,10 @@ public class StringReverser {
      * @return The reversed string.
      */
     public String reverse(String str) {
+        if (str == null)
+            // Throw an exception if str is null
+            throw new IllegalArgumentException();
+
         // Create a StringBuffer to store the reversed string
         StringBuffer reversed = new StringBuffer();
 
