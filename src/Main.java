@@ -3,9 +3,7 @@ import datastructures.linkedlist.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        /*  LINKEDLIST */
-
-        // LinkedList
+        /* LINKEDLIST */
         LinkedList linkedList = new LinkedList();
         linkedList.addLast(10);
         linkedList.addLast(20);
@@ -17,6 +15,7 @@ public class Main {
 
         linkedList.removeFirst();
         linkedList.contains(5); // returns false
+        /* END LINKEDLIST */
 
 
         /* STRING REVERSER */
@@ -24,5 +23,7 @@ public class Main {
         StringReverser stringReverser = new StringReverser();
         System.out.println(stringReverser.reverseWithStack(str)); // edcba
         System.out.println(stringReverser.reverse(str)); // edcba
+        /* END STRING REVERSER */
+
     }
 }
