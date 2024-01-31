@@ -1,7 +1,10 @@
+import algorithms.string.StringReverser;
 import datastructures.linkedlist.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
+        /*  LINKEDLIST */
+
         // LinkedList
         LinkedList linkedList = new LinkedList();
         linkedList.addLast(10);
@@ -14,5 +17,12 @@ public class Main {
 
         linkedList.removeFirst();
         linkedList.contains(5); // returns false
+
+
+        /* STRING REVERSER */
+        String str = "abcde";
+        StringReverser stringReverser = new StringReverser();
+        System.out.println(stringReverser.reverseWithStack(str)); // edcba
+        System.out.println(stringReverser.reverse(str)); // edcba
     }
 }
