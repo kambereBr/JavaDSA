@@ -7,6 +7,7 @@ Welcome to the Java Data Structures and Algorithms repository! This project is a
 - [Directory Structure](#directory-structure)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
+- [Show your support](#-show-your-support)
 - [License](#license)
 
 ## Introduction
@@ -45,6 +46,12 @@ git clone https://github.com/kambereBr/JavaDSA.git
 ```
 
 ## contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your support
+If you like this project do not hesitate to rate it, Join the community, Spread the word and Donate If you're able.
 
 ## license
 
