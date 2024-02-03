@@ -9,8 +9,10 @@ public class BalancedExpression {
         for (char ch : str.toCharArray()) {
             if (ch == '(')
                 stack.push('(');
-            if (ch == ')')
+            if (ch == ')') {
+                if (stack.isEmpty()) return false;
                 stack.pop();
+            }
         }
 
         return stack.isEmpty();
