@@ -3,7 +3,7 @@ package algorithms.string;
 import java.util.Stack;
 
 public class BalancedExpression {
-    public boolean isBalaced(String str) {
+    public boolean isBalanced(String str) {
         Stack<Character> stack = new Stack<>();
 
         for (char ch : str.toCharArray()) {

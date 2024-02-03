@@ -29,7 +29,7 @@ public class Main {
         /* BALANCED EXPRESSION */
         BalancedExpression balancedExpression = new BalancedExpression();
         String test = "(1 + 1)";
-        System.out.println(balancedExpression.isBalaced(test));
+        System.out.println(balancedExpression.isBalanced(test));
         /* END BALANCED EXPRESSION */
 
     }
