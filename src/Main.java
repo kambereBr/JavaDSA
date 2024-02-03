@@ -1,3 +1,4 @@
+import algorithms.string.BalancedExpression;
 import algorithms.string.StringReverser;
 import datastructures.linkedlist.LinkedList;
 
@@ -24,6 +25,12 @@ public class Main {
         System.out.println(stringReverser.reverseWithStack(str)); // edcba
         System.out.println(stringReverser.reverse(str)); // edcba
         /* END STRING REVERSER */
+
+        /* BALANCED EXPRESSION */
+        BalancedExpression balancedExpression = new BalancedExpression();
+        String test = "(1 + 1)";
+        System.out.println(balancedExpression.isBalaced(test));
+        /* END BALANCED EXPRESSION */
 
     }
 }
