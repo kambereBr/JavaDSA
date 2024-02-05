@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Stack;
 
 public class BalancedExpression {
-    private final List<Character> leftBrackets = Arrays.asList('(', '{', '<', '[');
-    private final List<Character> rightBrackets = Arrays.asList(')', '}', '>', ']');
+    private final List<Character> leftBrackets = Arrays.asList('(', '<', '[', '{');
+    private final List<Character> rightBrackets = Arrays.asList(')', '>', ']', '}');
     public boolean isBalanced(String str) {
         Stack<Character> stack = new Stack<>();
 
