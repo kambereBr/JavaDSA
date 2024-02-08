@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 public class BinarySearch {
 
-
-
     /**
      * This function processes the search binary algorithm using a while loop
      * it return the index of the element if it found, otherwise it returns -1
@@ -39,8 +37,8 @@ public class BinarySearch {
      *
      * @param nums sorted
      * @param target
-     * @param left
-     * @param right
+     * @param left  first index of array  / 0
+     * @param right last index of array  / nums.length-1
      * @return
      */
     public int recursionSearch(int [] nums,int target,int left, int right){
