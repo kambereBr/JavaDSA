@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class BinarySearch {
 
 
+
     /**
      * This function processes the search binary algorithm using a while loop
      * it return the index of the element if it found, otherwise it returns -1
@@ -12,7 +13,7 @@ public class BinarySearch {
      * @param target
      * @return
      */
-    public static int find(int [] nums,int target){
+    public  int find(int [] nums,int target){
         int left = 0;
         int right = nums.length - 1;
 
@@ -35,13 +36,14 @@ public class BinarySearch {
 
     /**
      * this function perform the binary search using recursion
-     * @param nums
+     *
+     * @param nums sorted
      * @param target
      * @param left
      * @param right
      * @return
      */
-    public static  int recursionSearch(int [] nums,int target,int left, int right){
+    public int recursionSearch(int [] nums,int target,int left, int right){
         int mid = (left + right)/2;
         if( target  ==  nums[mid])
             return mid;
