@@ -50,11 +50,13 @@ git clone https://github.com/kambereBr/JavaDSA.git
 Contributions, issues, and feature requests are welcome!
 
 ## authors
+
+👤 **Bruno Kambere**
 - GitHub: [@kambereBr](https://github.com/kambereBr)
 - Twitter: [@kambereBr](https://twitter.com/kambereBr)
 - LinkedIn: [bruno kambere](https://www.linkedin.com/in/bruno-kambere/)
 
-
+👤 **Justin Fimbo**
 - GitHub: [@FimboIsso](https://github.com/FimboIsso)
 - Twitter: [@IssoFimbo](https://twitter.com/IssoFimbo)
 - LinkedIn: [Justin Fimbo](https://www.linkedin.com/in/justin-fimbo-9b178b150/)
