@@ -12,7 +12,7 @@ public class BalancedExpression {
 
         for (char ch : str.toCharArray()) {
             if (isLeftBracket(ch))
-                stack.push('(');
+                stack.push(ch);
 
             if (isRightBracket(ch)) {
                 if (stack.isEmpty()) return false;
