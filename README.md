@@ -54,6 +54,11 @@ Contributions, issues, and feature requests are welcome!
 - Twitter: [@kambereBr](https://twitter.com/kambereBr)
 - LinkedIn: [bruno kambere](https://www.linkedin.com/in/bruno-kambere/)
 
+
+- GitHub: [@FimboIsso](https://github.com/FimboIsso)
+- Twitter: [@IssoFimbo](https://twitter.com/IssoFimbo)
+- LinkedIn: [Justin Fimbo](https://www.linkedin.com/in/justin-fimbo-9b178b150/)
+
 Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support
