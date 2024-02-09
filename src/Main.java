@@ -1,3 +1,4 @@
+import algorithms.search.BinarySearch;
 import algorithms.string.BalancedExpression;
 import algorithms.string.StringReverser;
 import datastructures.linkedlist.LinkedList;
@@ -31,6 +32,13 @@ public class Main {
         String test = "[{(1 + 1)}]";
         System.out.println(balancedExpression.isBalanced(test));
         /* END BALANCED EXPRESSION */
+
+        /* BINARY SEARCH */
+        BinarySearch binarySearch = new BinarySearch();
+        int items[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int targetIndex = binarySearch.find(items, 6);
+        System.out.println(targetIndex); // output 5
+        /* END BINARY SEARCH */
 
     }
 }
