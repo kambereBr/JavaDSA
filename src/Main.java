@@ -39,6 +39,5 @@ public class Main {
         int targetIndex = binarySearch.find(items, 6);
         System.out.println(targetIndex); // output 5
         /* END BINARY SEARCH */
-
     }
 }

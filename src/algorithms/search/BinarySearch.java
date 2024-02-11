@@ -12,24 +12,24 @@ public class BinarySearch {
      * @param target
      * @return
      */
-    public int find(int [] nums,int target){
+    public int find(int[] nums, int target){
         int left = 0;
         int right = nums.length - 1;
 
         //we need to sort our array first, as the binary search is performed on a sorted array,
         Arrays.sort(nums);
 
-        while (left <=right){
-            int mid = (left +right)/2;
+        while (left <= right){
+            int mid = (left + right) / 2;
 
             if(target == nums[mid])
                 return mid;
             else if(target < nums[mid])
-                right = mid-1;
+                right = mid - 1;
             else
-                left = mid +1;
+                left = mid + 1;
         }
-        return  -1;
+        return -1;
     }
 
 
@@ -41,14 +41,14 @@ public class BinarySearch {
      * @param right last index of array / nums.length-1
      * @return
      */
-    public  int recursionSearch(int [] nums,int target,int left, int right){
-        int mid = (left + right)/2;
+    public  int recursionSearch(int [] nums, int target, int left, int right){
+        int mid = (left + right) / 2;
         if( target  ==  nums[mid])
             return mid;
         else if(target < nums[mid])
-            recursionSearch(nums,target,left,mid-1);
+            recursionSearch(nums, target, left, mid - 1);
         else
-            recursionSearch(nums,target,mid+1,right);
+            recursionSearch(nums, target, mid + 1, right);
 
         return  -1;
     }
