@@ -41,7 +41,7 @@ public class BinarySearch {
      * @param right last index of array / nums.length-1
      * @return
      */
-    public  int recursionSearch(int [] nums, int target, int left, int right){
+    public  int recursionSearch(int[] nums, int target, int left, int right){
         int mid = (left + right) / 2;
         if( target  ==  nums[mid])
             return mid;
